@@ -1,0 +1,183 @@
+/*----------------------------
+  ------------------------------
+  Google Dark Theme Enhancer Mod
+  ------------------------------
+  ----------------------------*/
+
+  /*-----------------------------------------
+  Global Variables
+  -----------------------------------------*/
+/* Root covers the entire CSS Document */
+:root
+{
+    /* Background */
+    --Main-Background-Colour: #333;
+    --Secondary-Background-Colour: #282828;
+    --Gradient-Background-Colour: -webkit-linear-gradient(top,#222,#222220);
+    /* Text */
+    --Main-Text-Colour: #dcddde;
+    --Secondary-Text-Colour: #bbb;
+    --Alternative-Text-Colour: #75777d;
+    --Link-Text-Colour: #00b0f4;
+    --Clicked-Link-Text-Colour: #a700f4;
+    /* Borders */
+    --Border-Seperator-Colour: #80868b;
+    --Border-Remove-Colour: rgba(0, 0, 0, 0);
+    /* Icons */
+    --Main-Icon-Colour: #80868b;
+}
+
+/* Order that we edit each webpage on the Google Domain
+* 1. Google Home Page
+* 2. Google Search
+* 3. Google Images
+*/
+
+  /*-----------------------------------------
+  Main Page Background
+  -----------------------------------------*/
+
+/* Make the Main Page Backgrounds use a uniformed colour scheme */
+#viewport , body , .jZWadf , .gNO89b
+{
+    background-color: var(--Main-Background-Colour)!important;
+}
+
+  /*-----------------------------------------
+  Top Bar
+  -----------------------------------------*/
+/* Make the text not just boring plain black */
+#hptl a , .gb_g
+{
+    color: var(--Secondary-Text-Colour)!important;
+}
+
+/* Recolour the Icon too as it is hidious as it is */
+.gb_xc
+{
+    color: var(--Main-Icon-Colour)!important;
+    background-image: url();
+    background-image: url("M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z");
+}
+
+  /*-----------------------------------------
+  Search Bar
+  -----------------------------------------*/
+/* Make the Google Search Bar the correct colour and remove its borders */
+.RNNXgb, .zthhpf , .JSAgYe
+{
+    background-color: var(--Secondary-Background-Colour)!important;
+    border-color: var(--Border-Remove-Colour)!important;
+}
+
+/* Make the Search Bar Text Dark */
+.gLFyf
+{
+    color: var(--Main-Text-Colour)!important;
+}
+
+/* Change the Outline Seperator to a nicer colour */
+.FqnKTc
+{
+    border-color: var(--Border-Seperator-Colour)!important;
+}
+
+  /*-----------------------------------------
+  Search Bar Quick Results
+  -----------------------------------------*/
+/* Make the Outline under the Search Bar not look retarded */
+.xtSCL
+{
+    border-color: var(--Border-Seperator-Colour)!important;
+}
+  
+  
+/* Make the background colour look hella cool */
+.aajZCb
+{
+    background-color: var(--Secondary-Background-Colour)!important;
+}
+
+/* Make the text actually visible */
+.sbl1 , .ynRric , .sbai
+{
+    color: var(--Secondary-Text-Colour)!important; 
+}
+
+/* Links should look fancier than everything else */
+.sbl1p
+{
+    color: var(--Clicked-Link-Text-Colour)!important;
+}
+
+  /*-----------------------------------------
+  Search Buttons
+  -----------------------------------------*/
+/* Make the Gradient look nice and dark, as well as changing the text */
+.tfB0Bf input[type="submit"]
+{
+    background-image: var(--Gradient-Background-Colour)!important;
+    border-color: var(--Border-Remove-Colour)!important;
+    color: var(--Secondary-Text-Colour)!important;
+}
+
+.tfB0Bf input[type="submit"]:hover
+{
+    background-image: var(--Gradient-Background-Colour)!important;
+    border-color: var(--Border-Remove-Colour)!important;
+    color: var(--Main-Text-Colour)!important;
+}
+
+  /*-----------------------------------------
+  Under Search Buttons News
+  -----------------------------------------*/
+/* Look more cyanish */
+.NKcBbd
+{
+    color: var(--Link-Text-Colour);
+}
+
+  /*-----------------------------------------
+  Google Images
+  -----------------------------------------*/
+/* Text Underneath Images */
+.WGvvNb
+{
+    color: var(--Secondary-Text-Colour)!important;
+}
+
+/* URL Under Text */
+ .fxgdke
+{
+    color: var(--Alternative-Text-Colour)!important;
+}
+
+
+  /*-----------------------------------------
+  Footer
+  -----------------------------------------*/
+/* Make the Footer Dark */
+.fbar
+{
+    background-color: var(--Secondary-Background-Colour)!important;
+}
+
+/* Change the Language text colour */
+.Q8LRLc
+{
+    color: var(--Secondary-Text-Colour)!important;
+}
+
+
+/* Make the text at the very bottom Dark */
+.fbar #fsl * , .fbar #fsr *
+{
+    color: var(--Alternative-Text-Colour);
+}
+
+/* Remove the ugly Borders */
+#fbar , .b2hzT
+{
+    border-color: var(--Border-Remove-Colour)!important;
+    background-color: var(--Border-Remove-Colour)!important;
+}
